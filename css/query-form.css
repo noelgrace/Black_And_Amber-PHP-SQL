@@ -1,0 +1,44 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.query-form {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.query-form  .checkbox {
+  margin-bottom: 10px;
+}
+.query-form  .checkbox {
+  font-weight: normal;
+}
+.query-form  .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.query-form  .form-control:focus {
+  z-index: 2;
+}
+.query-form  input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.query-form  input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.query-form  input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
